@@ -1,0 +1,28 @@
+.review-card {
+  margin: 20px 0;
+}
+.star-rating i {
+  color: #f39c12;
+}
+.card-text{
+  color: black;
+}
+#cob {
+  /* Optional: Adjust padding and margins as needed */
+  padding: 0px;
+  /* margin-right: 10px; */
+  border: 2px solid #feffff; /* Blue border */
+  border-radius: 6px; /* Rounded corners */
+}
+
+#cob .nav-link {
+  display: block; /* Ensures full clickable area */
+   /* Padding inside the box */
+  color: #fafafa; /* Blue text color */
+  text-decoration: none; /* Remove underline */
+}
+
+#cob .nav-link:hover {
+  background-color: #742607; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+}

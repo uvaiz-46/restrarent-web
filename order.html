@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Foodies</title>
+    <link rel="stylesheet" href="ord.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid " id="lop"  >
+            <button class="btn btn-outline-success me-2" type="button"><a href="/index.html">Home</a></button>
+            <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
+        </form>
+    </nav>
+    <div id="cursor"></div>
+
+    <div class="container">
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="order">Order Details:</label>
+            <textarea id="order" name="order" required></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+        <p id="confirmationMessage" class="hidden">Thank you for your order! We will contact you soon.</p>
+    </div>
+    <script>document.getElementById('orderForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        document.getElementById('orderForm').reset();
+        document.getElementById('confirmationMessage').classList.remove('hidden');
+    });
+    </script>
+    <script src="scripts.js"></script>
+        <!-- Bootstrap JS bundle (Popper.js included) -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
