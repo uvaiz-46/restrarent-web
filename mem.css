@@ -1474,3 +1474,68 @@ position: absolute;
     background-color: #742607; /* Blue background on hover */
     color: #fff; /* White text on hover */
   }
+  #main-menu-section .section-subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #FF6347;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #main-menu-section .section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  #main-menu-section .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #main-menu-section .card-body {
+    padding: 40px;
+  }
+
+  #main-menu-section .text-decoration-none {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  #main-menu-section .text-decoration-none:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  #main-menu-section .d-flex {
+    align-items: center;
+  }
+
+  #main-menu-section .flex-grow-1 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #main-menu-section .text-primary {
+    color: #FF6347 !important;
+  }
+
+  #main-menu-section .btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  #main-menu-section .btn:hover {
+    background-color: #FF4500;
+    transform: scale(1.05);
+  }
+
+  #main-menu-section p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+  }

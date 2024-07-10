@@ -1,4 +1,9 @@
+body {
+  font-family: 'Ga Maamli', sans-serif;
+  background-color: #f4f4f9;
+}
 .review-card {
+
   margin: 20px 0;
 }
 .star-rating i {
@@ -25,4 +30,69 @@
 #cob .nav-link:hover {
   background-color: #742607; /* Blue background on hover */
   color: #fff; /* White text on hover */
+} 
+
+
+.about-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content p,
+footer p {
+  color: #777;
+}
+
+#cob {
+  padding: 0px;
+  border: 2px solid #feffff;
+  border-radius: 6px;
+}
+
+#cob .nav-link {
+  display: block;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#cob .nav-link:hover {
+  background-color: #742607;
+  color: #fff;
+}
+
+.review-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.review-card .card-body {
+  padding: 30px;
+}
+
+.review-card .star-rating .fa-star {
+  color: #FFD700;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
